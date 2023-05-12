@@ -1,0 +1,28 @@
+name: presence
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  firebase_core: 2.10.0
+  firebase_auth: 4.4.2
+  cloud_firestore: 4.5.3
+  firebase_storage: 11.1.1
+  image_picker: 0.8.7+5
+  convex_bottom_bar: 3.2.0
+  intl: ^0.17.0
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
